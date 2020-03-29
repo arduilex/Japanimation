@@ -1,0 +1,89 @@
+article {
+    color: white;
+    padding-bottom: 50px;
+}
+
+article h1 {
+    padding-top: 40px;
+}
+article h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0 10px 0;
+}
+article h2 a {
+    color: rgb(169, 243, 218);
+}
+
+div {
+    padding-left: 20px;
+    padding-right: 20px;
+    display:inline-block;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+div img {
+    height: 70px; float: right;margin: 20px 10px 0 0
+}
+
+
+#arrondi {
+    border-radius: 10px;
+}
+.audio {
+    background-color: rgb(93, 218, 176);
+    border: 3px dashed rgb(49, 182, 138);
+    margin-left: 50px;
+}
+
+.artist {
+    background-color: rgb(54, 190, 145);
+    border: 3px solid rgb(38, 156, 117);
+    box-shadow: 0 4px 0 rgb(38, 156, 117);
+    border-radius: 15px;
+    margin-top: 0px;
+    float: right;
+    width: 250px;
+    height: 78px;
+}
+
+.ja {
+    background-color: rgb(228, 89, 89);
+    border: 3px dashed rgb(209, 32, 32);
+    margin-left: 50px;
+    text-align: center;
+    font-size: 15.65px;
+}
+.ja b {
+    color: rgb(255, 194, 194);
+}
+.fr b {
+    color: rgb(185, 247, 255);
+}
+
+.fr {
+    background-color: rgb(71, 191, 207);
+    border: 3px dashed rgb(57, 163, 177);
+    margin-right: 50px;
+    float:right;
+    text-align: center;
+    font-size: 17px;
+}
+.ja a {
+    font-size: 50px;
+    color: rgb(206, 55, 55)
+}
+.fr a {
+    font-size: 50px;
+    color: rgb(32, 153, 209)
+}
+
+.video {
+    background-color: rgb(61, 202, 84);
+    border: 3px dashed rgb(55, 177, 75);
+    margin-left: 130px;
+}
+.video iframe
+{
+    margin-left: 30px;
+}

@@ -1,0 +1,41 @@
+#arrondi {
+    border-radius: 10px;
+}
+
+.content {
+    background-color: rgb(90, 122, 207);
+    border: 3px dashed rgb(30, 21, 158);
+    margin-left: 125px;
+    width: 1000px;
+    font-size: 25px;
+}
+.content b{
+    color: rgb(125, 178, 238);
+}
+article a{
+    color: rgb(57, 87, 168);
+}
+
+article h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0 0 0;
+}
+
+
+article div {
+    padding-left: 20px;
+    padding-right: 20px;
+    display:inline-block;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+article img {
+    float: left;
+    margin-left: 85px;
+    height: 220px;
+    margin-bottom: 30px;
+}

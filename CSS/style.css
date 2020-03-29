@@ -1,0 +1,105 @@
+header {
+    text-align:center;
+}
+
+body{
+    background-image: url(../image/fond.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Varela Round', sans-serif;
+}
+
+article {
+    border-radius: 60px;
+    background-color: rgba(116, 155, 160, 0.5);
+    margin: auto;
+    margin-top: 60px;
+    width: 1300px;
+}
+article h1 {
+    color: rgb(228, 89, 89);
+    text-shadow: 7px 7px rgb(167, 56, 108);
+    text-align: center;
+    font-size: 130px;
+    margin: auto;
+}
+article h2 {
+    text-shadow: 3px 3px rgba(228, 241, 255, 0.24);
+}
+article a {
+    text-decoration: none;
+}
+article a:hover{
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: rgba(202, 166, 98, 0.376);
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+nav{
+    position: sticky;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255,128,130);
+    top: 0px;
+}
+nav ul{
+    list-style-type: none;
+    margin: auto;
+}
+nav ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 11px 0px;
+}
+nav a:hover{
+    color: gold;
+    border-bottom: 2px solid gold;
+    
+}
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: rgb(255,128,130);
+    position: absolute;
+    width: 100%;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: rgb(253, 136, 138);
+}
+
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
